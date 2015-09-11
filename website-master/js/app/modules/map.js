@@ -10,7 +10,6 @@
 */
 
 function Map() {
-  var prefix = 'data-';
   var datasets = ['encryptionlaws', 'resellers', 'targetedthreats', 'vendors'];
   var datasets_toc = {};
   var datatable = {};
