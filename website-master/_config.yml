@@ -1,0 +1,20 @@
+# Site settings
+title: Digital Freedom Alliance
+email: alliance@digitalfreedom.io
+description: > # this means to ignore newlines until "baseurl:"
+    Digital Freedom Alliance is a collaborative project dedicated to the
+    aggregation knowledge on threats to civil society, censorship, and
+    surveillance, as well as establishing a platform for hackers, security
+    researchers and human rights defenders to work on privacy and security
+    issues of targeted communities.
+baseurl: "" # the subpath of your site, e.g. /blog/
+sass:
+  style: compact
+exclude: [node_modules]
+url: "https://digitalfreedom.io" # the base hostname & protocol for your site
+url_api: "https://digitalfreedom.io/api/"
+twitter_username:
+github_username:  digitalfreedom
+
+# Build settings
+markdown: kramdown
